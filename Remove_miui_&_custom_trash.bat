@@ -23,10 +23,15 @@ ECHO. Remove Google Map
 adb shell pm uninstall -k --user 0 com.google.android.apps.maps
 ECHO. Remove Google Mail
 adb shell pm uninstall -k --user 0 com.google.android.gm
+ECHO. Remove YouTube
+adb shell pm uninstall -k --user 0 com.google.android.youtube
+ECHO. Remove Mi Drop
+adb shell pm uninstall -k --user 0 com.xiaomi.midrop
+
 
 ECHO.
 ECHO. IT'S ALL
-rem Чтобы удалить другую программу,впишите ее адрес "com.сяоми.прога.какае-то"
+rem Чтобы удалить другую программу,впишите ее адрес "com.гугл.прога"
 rem Найти этот адрес можно в описании к программе
 rem Также можете закоментировть c помощью "rem" нужные программы
 rem и спасти их от удаления

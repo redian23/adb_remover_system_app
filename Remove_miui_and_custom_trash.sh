@@ -8,7 +8,7 @@ adb devices
 adb shell pm uninstall -k --user 0 com.google.android.apps.docs
   echo Remove Google Photo
 adb shell pm uninstall -k --user 0 com.google.android.apps.photos
-  echo Remove Google Musicecho
+  echo Remove Google Music
 adb shell pm uninstall -k --user 0 com.google.android.music
   echo Remove Google Video
 adb shell pm uninstall -k --user 0 com.google.android.videos
@@ -22,3 +22,12 @@ adb shell pm uninstall -k --user 0 com.google.android.googlequicksearchbox
 adb shell pm uninstall -k --user 0 com.google.android.apps.maps
   echo Remove Google Mail
 adb shell pm uninstall -k --user 0 com.google.android.gm
+  echo Remove YouTube
+adb shell pm uninstall -k --user 0 com.google.android.youtube
+  echo Remove Mi Drop
+adb shell pm uninstall -k --user 0 com.xiaomi.midrop
+
+:: Чтобы удалить другую программу,впишите ее адрес "com.сяоми.прога"
+:: Найти этот адрес можно в описании приложения.
+:: Вы всегда можете закоментировать нужное вам приложение добавив "::"
+:: в начале строки перед командой.
