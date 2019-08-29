@@ -3,7 +3,7 @@
 CLS
 
 adb devices
-ECHO. Remover Google trash from MIUI
+ECHO. Remover Google trash from MIUI & Custom ROMs
 ECHO. by Restorm
 ECHO. Remove Google Docs
 adb shell pm uninstall -k --user 0 com.google.android.apps.docs
@@ -24,11 +24,11 @@ adb shell pm uninstall -k --user 0 com.google.android.apps.maps
 ECHO. Remove Google Mail
 adb shell pm uninstall -k --user 0 com.google.android.gm
 
-ECHO. 
+ECHO.
 ECHO. IT'S ALL
-rem Чтобы удалить другую программу,впишите ее адрес "com.сяоми.прога.какае-то" 
-rem Найти этот адрес можно в описании к программе 
-rem Также можете закоментировть c помощью "rem" нужные программы
-rem и спасти их от удаления
+rem Р§С‚РѕР±С‹ СѓРґР°Р»РёС‚СЊ РґСЂСѓРіСѓСЋ РїСЂРѕРіСЂР°РјРјСѓ,РІРїРёС€РёС‚Рµ РµРµ Р°РґСЂРµСЃ "com.СЃСЏРѕРјРё.РїСЂРѕРіР°.РєР°РєР°Рµ-С‚Рѕ"
+rem РќР°Р№С‚Рё СЌС‚РѕС‚ Р°РґСЂРµСЃ РјРѕР¶РЅРѕ РІ РѕРїРёСЃР°РЅРёРё Рє РїСЂРѕРіСЂР°РјРјРµ
+rem РўР°РєР¶Рµ РјРѕР¶РµС‚Рµ Р·Р°РєРѕРјРµРЅС‚РёСЂРѕРІС‚СЊ c РїРѕРјРѕС‰СЊСЋ "rem" РЅСѓР¶РЅС‹Рµ РїСЂРѕРіСЂР°РјРјС‹
+rem Рё СЃРїР°СЃС‚Рё РёС… РѕС‚ СѓРґР°Р»РµРЅРёСЏ
 :CHO
 pause
