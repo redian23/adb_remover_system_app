@@ -20,8 +20,8 @@ adb shell pm uninstall -k --user 0 com.google.android.apps.tachyon
 adb shell pm uninstall -k --user 0 com.google.android.googlequicksearchbox
   echo Remove Google Map
 adb shell pm uninstall -k --user 0 com.google.android.apps.maps
-  echo Remove Google Mail
-adb shell pm uninstall -k --user 0 com.google.android.gm
+::  echo Remove Google Mail
+::adb shell pm uninstall -k --user 0 com.google.android.gm
   echo Remove YouTube
 adb shell pm uninstall -k --user 0 com.google.android.youtube
   echo Remove Mi Drop
