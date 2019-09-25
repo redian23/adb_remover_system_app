@@ -6,13 +6,14 @@
 ### Установка
 ## Windows
 Просто распаковать архив в любом удобном месте на пк.
-##Linux
+## Linux
 **Ubuntu (и её производные)**
-~$ sudo apt update
-~$ sudo apt install android-tools-adb android-tools-fastboot
+
+sudo apt update && sudo apt install android-tools-adb android-tools-fastboot
 
 **Arch**
-~$ sudo pacman -S android-tools
+
+sudo pacman -S android-tools
 
 ### Использование
 
